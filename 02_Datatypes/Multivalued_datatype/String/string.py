@@ -18,6 +18,6 @@ a = 'hello'
 print(a[3]) # Output - 'l'
 
 str = 'Python is easy'
-print(len(str))
-print(len(str) - 1)
-print(str[-len(str)])
+print(len(str)) # Output - 14
+print(len(str) - 1) # Output - 13
+print(str[-len(str)]) # Output - 'P'
