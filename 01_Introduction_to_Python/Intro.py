@@ -41,3 +41,30 @@ Tokens - Tokens are essential elements for writing the python program
         name = 'Mayank'
 
 '''
+print("Hello World !")
+
+interger = 10
+print(type(interger))
+float = 20.0
+print(type(float))
+
+complex = 3 + 2j
+print(type(complex))
+
+bool = True
+print(type(bool))
+
+name = 'Mayank'
+print(type(name))
+
+list = [1,2,3,4,5]
+print(type(list))
+
+tuple = (1,2,3,4,5)
+print(type(tuple))
+
+set = {1,2,3,4,5}
+print(type(set))
+
+dict = {'a':1,'b':2,'c':3}
+print(type(dict))
