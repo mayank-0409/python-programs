@@ -37,3 +37,8 @@ print(result)
 # Start index -> Default value -> 0
 # End index -> Default value -> length of the string
 # Step value -> Default value -> 1 
+
+print(len(str)) # Output - 14
+print(len(str) - 1) # Output - 13
+print(str[-len(str)]) # Output - 'P'
+
