@@ -29,8 +29,8 @@ print(str[-len(str)]) # 'P'
 str = 'Python is easy'
 result = str[0:5:1] # Pytho
 result = str[7:9:1] # is
-result = str[10::1] # easy
-result = str[::2] # Pto ses
+result = str[10:14:1] # easy
+result = str[1:14:2] # Pto ses
 result = str[-14:-8:1] # Python
 print(result)
 
@@ -38,7 +38,26 @@ print(result)
 # End index -> Default value -> length of the string
 # Step value -> Default value -> 1 
 
-print(len(str)) # Output - 14
-print(len(str) - 1) # Output - 13
-print(str[-len(str)]) # Output - 'P'
+str = 'Python is easy'
+result = str[::] # Python is easy
+result = str[:6:] # Python
+result = str[::2] # Pto ses
+result = str[10::] # easy
+print(result)
 
+# Note - To extract N number of starting character from the string we can use generalized simplified.
+a = 'hello'
+result = a[:4:] # 'hell'
+print(result)
+
+# Note - To extract N number of last character from the string we can use simplified syntax.
+st = 'Python is easy'
+result = st[-4::] # 'easy'
+print(result)
+
+# Reverse a string
+st = 'Python is easy'
+result = st[14::-1]
+print(result)
+
+# Methods of String
