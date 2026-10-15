@@ -61,3 +61,17 @@ result = st[14::-1]
 print(result)
 
 # Methods of String
+
+# 1. dir() - It is an in built function, which returns a list of attribute that are attached to the object / class.
+
+# 2. lower() - It converts a string into lower case.
+print("GOOD MORNING".lower())
+
+# 3. upper() - It converts a string into upper case.
+print("good morning".upper())
+
+# 4. swapcase() - It converts a lowercase character into uppercase and uppercase to lowercase character.
+print("GooD MorNinG".swapcase()) 
+
+# 5. count() - Returns the number of occurrence of a substring in the original string.
+print("GOOD MORNING".count('O'))
