@@ -75,3 +75,17 @@ print("GooD MorNinG".swapcase())
 
 # 5. count() - Returns the number of occurrence of a substring in the original string.
 print("GOOD MORNING".count('O'))
+
+# 6. index() - Returns the index of first occurrence of the letter.
+print("Good Morning".index('o'))
+
+# 7. rindex() - Searches the string for a specified value and returns the last position of where it was found.
+print("Good Morning".rindex('o'))
+
+# 8. startswith() - This function returns True if the string starts with the given specified value, otherwise it returns false. 
+print("Good Morning".startswith('Good'))
+print("Good Morning".startswith('Morning'))
+
+# 9. endswith() - This function returns True if the string ends with the given specified value, otherwise it returns false.
+print("Good Morning".endswith('Good'))
+print("Good Morning".endswith('Morning'))           
