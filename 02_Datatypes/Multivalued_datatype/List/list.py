@@ -14,3 +14,12 @@ print(name[0][-4::])
 
 # Index lookup method - It is a procedure to replace the value of a list by using  index number. This method only supports for mutable datatype.
 
+# For replacing single element
+name = ["Steve Jobs","Bill Gates","Tim Cook","Alex"] 
+name[1] = "Sundar" 
+print(name)
+
+# For replacing multiple element at a time.
+name = ["Steve Jobs","Bill Gates","Tim Cook","Alex"] 
+name[:2:] = ["Yash","Maya"]
+print(name)
