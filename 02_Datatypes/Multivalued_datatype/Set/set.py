@@ -28,3 +28,16 @@ st.update((1,2))
 st.update([12,13])
 st.update({14,15,16,17,18})
 print(st)
+
+# 3. pop() - It is method which is used to remove or delete the value from existing set one by one from the first position or it will return and remove the first value of set.
+# It takes no arguments
+st = {20,30,40,50}
+st.pop()
+print(st)
+
+# 4. remove() - This method is used to remove the value from existing set based on the specified value.
+# It takes exactly one arguments
+st = {20,30,40,50}
+st.remove(20)
+st.remove(50)
+print(st)
