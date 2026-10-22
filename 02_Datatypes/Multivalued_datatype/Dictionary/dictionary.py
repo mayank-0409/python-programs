@@ -33,4 +33,10 @@ print(data.get('age'))
 print(data.get('Banglore'))
 print(data.get('Banglore', 'The Banglore key is not present in the Dict'))
 
-# 2. update() - 
+# 2. update() - Update the existing dictionary with the specified items.
+temp = {'mumbai':20,'Pune':30,'Delhi':50}
+temp.update({'Delhi':27, 'Chennai':34})
+temp.update(Balglore = 30)
+print(temp)
+
+# 3. pop() - Removes the specified item from the dictionary, Returns the removed value as output.
