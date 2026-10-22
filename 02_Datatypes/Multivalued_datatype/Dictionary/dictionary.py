@@ -24,3 +24,13 @@ temp['Banglore'] = 20
 print(temp)
 
 # Methods on Dictionary - 
+# 1. get() - Returns the value of the item with the specified key.
+data = {'name':'Maya', 'age':23, 'Punjab':30}
+print(data['name'])
+print(data.get('age'))
+
+# If the value is not present, then it will not throw the error instead it will return 'None' by default if the second argument is not given.
+print(data.get('Banglore'))
+print(data.get('Banglore', 'The Banglore key is not present in the Dict'))
+
+# 2. update() - 
