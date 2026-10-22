@@ -11,3 +11,16 @@ Characteristics of Dictionary
 - Key must be of immutable datatype
 - Dict is a mutable data type
 '''
+
+# Dictionary value lookup method -
+# It is produce to access the dictionary values based on the keys. If the key is present it will return the value of the key if key is not there it will throw the key error.
+temp = {'mumbai':20,'Pune':30,'Delhi':50}
+print(temp['mumbai'])
+print(temp['Delhi'])
+
+
+# If the key is already existed it will update the value if the key is not present in the dictionary then it will insert both the key and value pair at the last position of the existing dictionary.
+temp['Banglore'] = 20
+print(temp)
+
+# Methods on Dictionary - 
