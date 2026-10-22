@@ -40,3 +40,14 @@ temp.update(Balglore = 30)
 print(temp)
 
 # 3. pop() - Removes the specified item from the dictionary, Returns the removed value as output.
+# Syntax - variable_name.pop(key_name, default_value)
+# If the specified key dos not exist then it will return default value
+data = {'name':'Maya','age':21}
+print(data.pop('age','key value is not present in the dict'))
+print(data)
+
+# 4. popitem() - Removes the item that was inserted at last or present at last into the dictionary.
+# Syantax - variable_name.popite()
+data = {'name':'Maya','age':21}
+data.popitem()
+print(data)
