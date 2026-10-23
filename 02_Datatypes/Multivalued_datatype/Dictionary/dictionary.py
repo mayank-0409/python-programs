@@ -51,3 +51,18 @@ print(data)
 data = {'name':'Maya','age':21}
 data.popitem()
 print(data)
+
+# 5. items() - This method returns a view objecct. Returns the key-value pairs of the dictionary as tuples in a list.
+temp = {'mumbai':20,'pune':30,'Banglore':40}
+i = temp.items()
+print(i)
+
+# 6. keys() - Returns the list of all the keys present in the dictionary.
+temp = {'mumbai':20,'pune':30,'Banglore':40}
+k = temp.keys()
+print(k)
+
+# 7. values() - Returns the list of all the values.
+temp = {'mumbai':20,'pune':30,'Banglore':40}
+v = temp.values()
+print(v)
