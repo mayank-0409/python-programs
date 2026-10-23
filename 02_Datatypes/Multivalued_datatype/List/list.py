@@ -23,3 +23,24 @@ print(name)
 name = ["Steve Jobs","Bill Gates","Tim Cook","Alex"] 
 name[:2:] = ["Yash","Maya"]
 print(name)
+
+# Methods on List - 
+# 1. append() - It puts the item at the last position.
+fruits = ['banana','orange','mango','lemon']
+fruits.append('apple')
+fruits.append('kiwi')
+print(fruits)
+
+# 2. insert() - it puts the item at a specified position
+fruits = ['banana','orange','mango','lemon']
+fruits.insert(2,'apple')
+print(fruits)
+fruits.insert(3,'lime')
+print(fruits)
+
+# remove
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.remove('banana')
+print(fruits)  # ['orange', 'mango', 'lemon']
+fruits.remove('lemon')
+print(fruits)  # ['orange', 'mango']
