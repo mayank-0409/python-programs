@@ -89,3 +89,33 @@ print("Good Morning".startswith('Morning'))
 # 9. endswith() - This function returns True if the string ends with the given specified value, otherwise it returns false.
 print("Good Morning".endswith('Good'))
 print("Good Morning".endswith('Morning'))           
+
+# 10. expandtabs(): Replaces tab character with spaces, default tab size is 8. It takes tab size argument
+challenge = 'thirty days of python'
+print(challenge.expandtabs())   # 'thirty days      of       python'
+print(challenge.expandtabs(10))  # 'thirty    days      of        python'
+
+# 11. find(): Returns the index of first occurrence of substring
+challenge = 'thirty days of python'
+print(challenge.find('y'))  # 5
+print(challenge.find('th'))  # 0
+
+# Unpacking Character - 
+language = 'Python'
+a, b, c, d, e, f = language
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+# Escape Sequence
+print("I hope everyone is enjoying the python. \nDo you?")
+print("Days\tTopics\tExcersise")
+print("Day 1\t3\t5")
+print("Day 2\t2\t4")
+print("Day 3\t1\t6")
+print("Day 4\t4\t5")
+print("This is the back slash symbol (\\)")
+print("In every programming language it starts with \'Hello world!\' ")
