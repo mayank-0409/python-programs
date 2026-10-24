@@ -62,3 +62,31 @@ del fruits
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.clear()
 print(fruits) 
+
+# count() - It counts the number of occurence present in the list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.count('orange')) 
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.count(24))
+
+# index() - It is used to give the index of the particular item.
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('orange'))   # 1
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.index(24))
+
+# Reverse() - It is used to reverse the list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.reverse()
+print(fruits)
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+ages.reverse()
+print(ages)
+
+# sort() - This method is used to sort the elements of a list in ascending order by default.
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort()
+print(fruits)
+ages = [9,8,7,6,5,4,3,2,1]
+ages.sort()
+print(ages)
