@@ -13,6 +13,10 @@ Properties of Set -
 - Default value of set is {}
 '''
 
+# Checking an item - To check if an item exists in a set we use 'in' operator.
+st = {10,20,30,40,50,60}
+print(20 in st)
+
 # Method on Set - 
 
 # 1. add() - add() method is a method ehich is use to add individual element to an existing set either it can be single value datatype or multi value datatype [ only immutable ].
@@ -41,3 +45,11 @@ st = {20,30,40,50}
 st.remove(20)
 st.remove(50)
 print(st)
+
+# 5. clear() - If we want to clear pr empty the set then we use 'clear' method.
+st = {10,20,30,40,50,60}
+st.clear()
+
+# 6. del() - If we want to delete a set itself we use 'del'.
+st = {10,20,30,40,50,60,70,80,90}
+del st
