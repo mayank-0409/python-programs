@@ -38,9 +38,27 @@ print(fruits)
 fruits.insert(3,'lime')
 print(fruits)
 
-# remove
+# 3. remove() - It removes the specified item from the list. It takes one argument
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.remove('banana')
 print(fruits)  # ['orange', 'mango', 'lemon']
 fruits.remove('lemon')
 print(fruits)  # ['orange', 'mango']
+
+# pop() - It removes the last item from the list
+fruits = ['banana','orange','mango','lemon']
+fruits.pop()
+print(fruits)
+
+# del() - It is used to delete the particular item
+fruits = ['banana', 'orange', 'mango', 'lemon']
+del fruits[0]
+print(fruits)      
+del fruits[1]
+print(fruits)
+del fruits
+
+# clear() - It is used to clear all the items from the list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.clear()
+print(fruits) 
