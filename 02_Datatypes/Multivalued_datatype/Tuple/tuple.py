@@ -26,3 +26,22 @@ print(data[-2::])
 print(data[::2])
 print(data[:3:])
 print(data[1::2])
+
+# Changing Tuple to List - We can change list to tuple and tuple to list. Tuple is immutable if we want to modify a tuple, we should first chabge it to list.
+fruits = ('banana','orange','mango','lemon')
+fruit = list(fruits)
+print(fruit)
+
+# Checking an item in a Tuple - We can check if an item exists or not in a tuple using 'in', it returns a boolean.
+fruits = ('banana','orange','mango','lemon')
+print('mango' in fruits)
+
+# Joining Tuple - We can join two or more Tuples using + operator
+vegetables = ('Tomato','Potato','Onion','Carrot')
+fruits = ('banana','orange','mango','lemon')
+result = fruits + vegetables
+print(result)
+
+# Deleting Tuple - It is not possible to remove a single item in a tuple but it is possible to delete the tuple itself using 'del'.
+fruits = ('banana','orange','mango','lemon')
+del fruits
