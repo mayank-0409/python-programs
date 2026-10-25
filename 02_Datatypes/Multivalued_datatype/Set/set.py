@@ -17,7 +17,7 @@ Properties of Set -
 st = {10,20,30,40,50,60}
 print(20 in st)
 
-# Method on Set - 
+# Method on Set - -
 
 # 1. add() - add() method is a method ehich is use to add individual element to an existing set either it can be single value datatype or multi value datatype [ only immutable ].
 # It will insert element at random position..
