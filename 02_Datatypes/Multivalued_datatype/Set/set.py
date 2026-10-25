@@ -53,3 +53,22 @@ st.clear()
 # 6. del() - If we want to delete a set itself we use 'del'.
 st = {10,20,30,40,50,60,70,80,90}
 del st
+
+# 7. union() or update() - This method is used to combine two sets and return
+st1 = {1,2,3,4,5}
+st2 = {6,7,8,9}
+st3 = st1.union(st2)
+print(st3)
+
+# 8. intersection() - This method is used to return the common items present in both the sets.
+st1 = {1,2,3,4,5}
+st2 = {4,5,6,7,8}
+st3 = st1.intersection(st2)
+print(st3)
+
+# 9. subset() or superset() - This method is used to check whether the set is subset or a superset.
+st1 = {1,2,3,4,5}
+st2 = {1,2,3}
+print(st2.issubset(st1))
+print(st1.issuperset(st2))
+
