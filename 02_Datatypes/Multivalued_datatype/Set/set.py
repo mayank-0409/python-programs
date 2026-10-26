@@ -71,4 +71,3 @@ st1 = {1,2,3,4,5}
 st2 = {1,2,3}
 print(st2.issubset(st1))
 print(st1.issuperset(st2))
-
