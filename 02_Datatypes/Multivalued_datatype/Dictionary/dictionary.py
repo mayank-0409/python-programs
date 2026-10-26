@@ -66,3 +66,8 @@ print(k)
 temp = {'mumbai':20,'pune':30,'Banglore':40}
 v = temp.values()
 print(v)
+
+# 8. del() - Removes an item with specified key name.
+temp = {'mumbai':20,'pune':30,'Banglore':40}
+del temp['Banglore']
+print(temp)
