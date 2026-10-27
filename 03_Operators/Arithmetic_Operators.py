@@ -12,26 +12,4 @@ print('Division: ', 7 / 2)
 print('Division without the remainder: ', 7 // 2)
 print('Modulus: ', 3 % 2)                           # Gives the remainder
 print('Division without the remainder: ', 7 // 3)
-print('Exponential: ', 3 ** 2)                     # it means 3 * 3
-
-# Floating numbers
-print('Floating Number,PI', 3.14)
-print('Floating Number, gravity', 9.81)
-
-# Complex numbers
-print('Complex number: ', 1+1j)
-print('Multiplying complex number: ', (1+1j) * (1-1j))
-
-# Declaring the variable at the top first
-
-a = 3  # a is a variable name and 3 is an integer data type
-b = 2  # b is a variable name and 3 is an integer data type
-
-# Arithmetic operations and assigning the result to a variable
-total = a + b
-diff = a - b
-product = a * b
-division = a / b
-remainder = a % b
-floor_division = a // b
-exponential = a ** b
+print('Exponential: ', 3 ** 2)       
