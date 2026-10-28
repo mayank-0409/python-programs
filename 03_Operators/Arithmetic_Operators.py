@@ -8,8 +8,3 @@ print('Multiplication: ', 2 * 3)
 print('Division: ', 4 / 2)
 print('Division: ', 6 / 2)
 print('Division: ', 7 / 2)
-# gives without the floating number or without the remaining
-print('Division without the remainder: ', 7 // 2)
-print('Modulus: ', 3 % 2)                           # Gives the remainder
-print('Division without the remainder: ', 7 // 3)
-print('Exponential: ', 3 ** 2)       
